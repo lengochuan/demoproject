@@ -1,4 +1,5 @@
 <?php
+/* Page create new Store */
 include_once( 'config.php' );
 
 if( isset($_POST['submit']) && isset($_POST['store_name']) && $_POST['store_name'] != '' ){

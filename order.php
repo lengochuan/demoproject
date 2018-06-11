@@ -1,4 +1,6 @@
 <?php
+/* Page create new Order push to Firebase */
+
 include_once( 'config.php' );
 $sql = "SELECT schema_name as store_name
 FROM information_schema.schemata
