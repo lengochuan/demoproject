@@ -75,7 +75,7 @@ $lDB = $db->executeQuery_list( $sql );
                 </div>
                 <div class="col-sm-12">
                     <strong class="red">
-                        - Note: The order after setted to Firebase much be listened by NodeJS from Server to update to MySQL Database
+                        - Note: After the order from a pariticular store is pushed to Firebase, it's expected to be listened by NodeJS and will be updated to that store on MySQL accordingly. Three basic events need to be listened on Firebase: child_added, child_changed & child_removed.
                     </strong>
                 </div>
             </div>
