@@ -96,7 +96,7 @@ $lDB = $db->executeQuery_list( $sql );
             </div>
             <div class="col-sm-3">
                 <a href="/order.php">
-                    <button class="btn btn-default">Create new DB</button>
+                    <button class="btn btn-warning">Create new Order</button>
                 </a>
             </div>
             <div class="col-sm-3 left">

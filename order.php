@@ -25,6 +25,9 @@ $lDB = $db->executeQuery_list( $sql );
             button, input, select{
                 margin-top:10px;
             }
+            .red{
+                color: red;
+            }
         </style>
     </head>
     <body>
@@ -35,7 +38,7 @@ $lDB = $db->executeQuery_list( $sql );
             
             <div class="col-sm-4">
                 <a href="/">
-                    <button class="btn btn-default">Create new DB</button>
+                    <button class="btn btn-warning">Create new DB</button>
                 </a>
             </div>
             
@@ -69,6 +72,11 @@ $lDB = $db->executeQuery_list( $sql );
                             </button>
                         </div>
                     </div>
+                </div>
+                <div class="col-sm-12">
+                    <strong class="red">
+                        - Note: The order after setted to Firebase much be listened by NodeJS from Server to update to MySQL Database
+                    </strong>
                 </div>
             </div>
         </div>
